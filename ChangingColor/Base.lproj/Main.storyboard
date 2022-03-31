@@ -88,7 +88,6 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.26055984040000002" green="0.49878261060000001" blue="0.65582721440000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="51" id="8SL-sW-fWW"/>
                                 </constraints>
@@ -109,6 +108,15 @@
                             <constraint firstItem="sme-G8-PD4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="u6U-mg-Rhf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueSlider" destination="hwe-zr-GoB" id="x1r-M5-IQc"/>
+                        <outlet property="blueValue" destination="8IB-vK-smx" id="VCR-BK-GGC"/>
+                        <outlet property="colorView" destination="sme-G8-PD4" id="Zqj-il-1DY"/>
+                        <outlet property="greenSlider" destination="yNA-dh-1b9" id="VPo-qN-DrJ"/>
+                        <outlet property="greenValue" destination="M4d-ij-9nA" id="ETc-vs-wSH"/>
+                        <outlet property="redSlider" destination="8HZ-Zw-U65" id="nL8-Vw-upc"/>
+                        <outlet property="redValue" destination="rpt-rZ-qD1" id="kSi-XU-xr6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
